@@ -44,3 +44,4 @@
 - name: Install | Ensure Thrift installed
   shell: chdir={{software_install_dir}}/thrift-{{thrift_version}} make install creates={{user_binaries}}/thrift
   sudo: yes
+
